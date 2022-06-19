@@ -1,0 +1,78 @@
+body{
+    background: beige;
+}
+.flex-container{
+    border: 1px solid black;
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: ; sus valores pueden ser row o column. Sirve para que su contenido quede en forma de fila o de columna */
+    flex-wrap: wrap; /*Sacar para ver para que sirve*/
+    margin: 0px;
+    flex-flow: row wrap; /*convina el flex-director y el flex-wrap. Se usa asi: flex-flow: row wrap*/
+    justify-content: space-between;
+}
+.caja{
+    border: 1px solid rgb(70,69,69);
+    background-color: white;
+    color: black;
+    font-weight: bold;/*Establece el grosor de cada letra*/
+    width: 120px;
+    height: 120px;
+    line-height: 120px;/*Para centrar(verticalmente) la linea de texto dentro la caja */
+    text-align: center;
+    margin: 5px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.flex-container2{
+    border: 1px solid black;
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+    /* flex-direction: ; sus valores pueden ser row o column. Sirve para que su contenido quede en forma de fila o de columna */
+    flex-wrap: wrap; /*Sacar para ver para que sirve*/
+    margin: 0px;
+    flex-flow: row wrap; /*convina el flex-director y el flex-wrap. Se usa asi: flex-flow: row wrap*/
+    justify-content: center;
+    align-content: center;
+}
+/*TODO ELEMENTO QUE ESTÄ DENTRO DE UN FLEX CONTAINER PUEDE USAR: ORDER, ES PARA ORDENAR xP*/
+.caja1{
+    border: 1px solid rgb(70,69,69);
+    background-color: aqua;
+    color: black;
+    font-weight: bold;/*Establece el grosor de cada letra*/
+    width: 120px;
+    height: 120px;
+    line-height: 120px;/*Para centrar(verticalmente) la linea de texto dentro la caja */
+    text-align: center;
+    margin: 5px;
+    order: 3;
+    flex-grow: 1;/*Sirve para expandir un poco mas el elemento, Modifica el widht por completo*/
+}
+.caja2{
+    border: 1px solid rgb(70,69,69);
+    background-color: blueviolet;
+    color: black;
+    font-weight: bold;/*Establece el grosor de cada letra*/
+    width: 120px;
+    height: 120px;
+    line-height: 120px;/*Para centrar(verticalmente) la linea de texto dentro la caja */
+    text-align: center;
+    margin: 5px;
+    order: 1;
+    flex-grow: 4;/*Sirve para expandir un poco mas el elemento, Modifica el widht por completo*/
+}
+.caja3{
+    border: 1px solid rgb(70,69,69);
+    background-color: chartreuse;
+    color: black;
+    font-weight: bold;/*Establece el grosor de cada letra*/
+    width: 120px;
+    height: 120px;
+    line-height: 120px;/*Para centrar(verticalmente) la linea de texto dentro la caja */
+    text-align: center;
+    margin: 5px;
+    order: 2;
+    flex-grow: 1;/*Sirve para expandir un poco mas el elemento, Modifica el widht por completo*/
+}

@@ -1,0 +1,67 @@
+html{
+	
+}
+body{
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	background: black;
+}
+.contenedor1{
+	border: 1px solid;
+	justify-content: center;
+    align-items: center;
+	padding-bottom: 700px;
+	padding-right: 575px;
+	background-image: url("C:/Users/Nuevo Usuario/Documents/HTML/Plantillas/Imagenes/FondoLogin.jpg");
+}
+label{
+	color: #FFFFFF;
+	font-size: 30px;
+}
+input{
+	width: 290px;
+	height: 30px;
+}
+.login{
+	color: #FFFFFF;
+	font-size: 40px;
+}
+.contenedor2{
+	border:1px solid;
+	border-color: #8BAEE5;
+	text-align:center;
+	padding-right: 75px;
+	padding-left: 55px;
+	margin-left: 680px;
+}
+.tabla{
+display: table;
+text-align:center;
+text-align:center;
+ margin:0px auto;
+}
+.fila{
+display: table-row;
+width: 100px;
+text-align:center
+}
+
+.columna{
+display: table-cell;
+width: 100px;
+}
+
+.boton{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background: #2E86C1;
+	border: none;
+	margin-bottom: 7px;
+	border-radius: 5px;
+	width: 200px;
+	height: 40px;
+	font-size: 30px;
+}
